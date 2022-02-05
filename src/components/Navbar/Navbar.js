@@ -1,4 +1,4 @@
-import "./Navbar.css"
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
@@ -6,7 +6,6 @@ const Navbar = () => {
       <h2 className="visually-hidden">look for the country you need</h2>
       <form className="form">
         <label className="visually-hidden" for="search">
-          {" "}
           Write the state you are looking for
         </label>
         <input

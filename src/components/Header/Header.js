@@ -6,7 +6,7 @@ const Header = () => {
       <h1 className="visually-hidden">Wehere in the world?</h1>
       <div className={`${s.header__container} ${s.container}`}>
         <a className="logo-link">
-        <b>Wehere in the world?</b>
+        <img src={logo} />
         </a>
         <button className={s.button} type="button">
           Dark Mode

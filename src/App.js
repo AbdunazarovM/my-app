@@ -1,7 +1,7 @@
 import "./App.css";
-import Header from "./components/Header.js";
-import Navbar from "./components/Navbar";
-import Profile from "./components/Profile";
+import Header from "./components/Header/Header";
+import Navbar from "./components/Navbar/Navbar";
+import Main from "./components/Main/Main";
 
 const App = () => {
   return (
@@ -9,7 +9,7 @@ const App = () => {
       <Header />
       <div className="main-container container">
         <Navbar />
-        <Profile />
+        <Main />
       </div>
     </div>
   );
