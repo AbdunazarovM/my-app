@@ -1,4 +1,5 @@
 import "./Navbar.css";
+import {NavLink} from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -16,6 +17,10 @@ const Navbar = () => {
           placeholder="Search for a country…"
           required
         />
+
+        <NavLink to="/Main">Country section A</NavLink>
+        <NavLink to="/MainB">Country section B</NavLink>
+
         <select className="category " name="category-filter" id="category">
           <option value="all">Filter by Region</option>
           <option value="africa">Africa</option>
